@@ -6,7 +6,7 @@
         "@playwright/mcp@latest",
         "--isolated",
         "--config",
-        "./playwright-mcp-config.json"
+        "/c/Users/Split Lease/splitleaseteam/!Agent Context and Tools/SL1/Practice TAC/New/Full TAC/trees/71833aa9/playwright-mcp-config.json"
       ]
     }
   }
