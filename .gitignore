@@ -45,6 +45,7 @@ Thumbs.db
 
 # Application directory
 app/
+!app/split-lease/
 
 trees/
 !trees/README.md

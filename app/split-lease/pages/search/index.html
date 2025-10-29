@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Properties - Split Lease</title>
+    <meta name="description" content="Search for periodic tenancy rentals with Split Lease">
+
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="../shared/css/common.css">
+
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/filters.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="search-container">
+        <!-- Filter Section (Left Sidebar) -->
+        <aside class="filter-section" id="filter-section">
+            <div class="filter-header">
+                <h2 class="filter-title">Filters</h2>
+                <button class="filter-clear" id="clear-filters">Clear all</button>
+            </div>
+
+            <!-- Location Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Location</h3>
+                <div class="filter-input-group">
+                    <input
+                        type="text"
+                        class="filter-input"
+                        id="location-input"
+                        placeholder="Search by city, neighborhood..."
+                        aria-label="Location search"
+                    >
+                </div>
+            </div>
+
+            <!-- Price Range Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Price Range</h3>
+                <div class="price-inputs">
+                    <div class="price-input-wrapper">
+                        <label class="price-label" for="min-price">Min</label>
+                        <input
+                            type="number"
+                            class="filter-input price-input"
+                            id="min-price"
+                            placeholder="$0"
+                            min="0"
+                            aria-label="Minimum price"
+                        >
+                    </div>
+                    <span class="price-separator">-</span>
+                    <div class="price-input-wrapper">
+                        <label class="price-label" for="max-price">Max</label>
+                        <input
+                            type="number"
+                            class="filter-input price-input"
+                            id="max-price"
+                            placeholder="Any"
+                            min="0"
+                            aria-label="Maximum price"
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <!-- Schedule Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Schedule</h3>
+                <div class="schedule-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="weekdays" value="weekdays">
+                        <span class="checkbox-text">Weekdays</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="weekends" value="weekends">
+                        <span class="checkbox-text">Weekends</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="custom-schedule" value="custom">
+                        <span class="checkbox-text">Custom Schedule</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Property Type Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Property Type</h3>
+                <div class="property-type-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="apartment" value="apartment">
+                        <span class="checkbox-text">Apartment</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="house" value="house">
+                        <span class="checkbox-text">House</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="condo" value="condo">
+                        <span class="checkbox-text">Condo</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="townhouse" value="townhouse">
+                        <span class="checkbox-text">Townhouse</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Bedrooms Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Bedrooms</h3>
+                <div class="bedroom-options">
+                    <button class="option-button" data-value="studio">Studio</button>
+                    <button class="option-button" data-value="1">1</button>
+                    <button class="option-button" data-value="2">2</button>
+                    <button class="option-button" data-value="3">3</button>
+                    <button class="option-button" data-value="4">4+</button>
+                </div>
+            </div>
+
+            <!-- Bathrooms Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Bathrooms</h3>
+                <div class="bathroom-options">
+                    <button class="option-button" data-value="1">1</button>
+                    <button class="option-button" data-value="1.5">1.5</button>
+                    <button class="option-button" data-value="2">2</button>
+                    <button class="option-button" data-value="2.5">2.5</button>
+                    <button class="option-button" data-value="3">3+</button>
+                </div>
+            </div>
+
+            <!-- Amenities Filter -->
+            <div class="filter-group">
+                <h3 class="filter-group-title">Amenities</h3>
+                <div class="amenities-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="parking" value="parking">
+                        <span class="checkbox-text">Parking</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="laundry" value="laundry">
+                        <span class="checkbox-text">Laundry</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="gym" value="gym">
+                        <span class="checkbox-text">Gym</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="pool" value="pool">
+                        <span class="checkbox-text">Pool</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="pets" value="pets">
+                        <span class="checkbox-text">Pet Friendly</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" class="filter-checkbox" id="doorman" value="doorman">
+                        <span class="checkbox-text">Doorman</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Apply Filters Button -->
+            <div class="filter-actions">
+                <button class="apply-filters-btn" id="apply-filters">Apply Filters</button>
+            </div>
+        </aside>
+
+        <!-- Results Section (Right Side) -->
+        <main class="results-section">
+            <div class="results-header">
+                <h1 class="results-title">Available Properties</h1>
+                <p class="results-count" id="results-count">Loading...</p>
+            </div>
+
+            <!-- Results Grid Placeholder -->
+            <div class="results-grid" id="results-grid">
+                <!-- Results will be populated here -->
+                <div class="no-results">
+                    <p>Select filters to find your ideal periodic rental</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../shared/js/common.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
