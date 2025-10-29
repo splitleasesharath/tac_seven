@@ -1,0 +1,278 @@
+/* ===================================
+   FILTER SECTION STYLES
+   =================================== */
+
+.filter-section {
+    width: 320px;
+    min-width: 320px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    overflow-y: auto;
+    padding: 24px 20px;
+    box-sizing: border-box;
+}
+
+/* Filter Header */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.filter-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.filter-clear {
+    background: none;
+    border: none;
+    color: #0066cc;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.filter-clear:hover {
+    background-color: #f5f5f5;
+}
+
+.filter-clear:active {
+    background-color: #e8e8e8;
+}
+
+/* Filter Groups */
+.filter-group {
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.filter-group:last-of-type {
+    border-bottom: none;
+}
+
+.filter-group-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+}
+
+/* Input Fields */
+.filter-input-group {
+    margin-bottom: 0;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+}
+
+.filter-input:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+.filter-input::placeholder {
+    color: #999999;
+}
+
+/* Price Range */
+.price-inputs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price-input-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-label {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.price-input {
+    padding: 10px 12px;
+}
+
+.price-separator {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/* Checkbox Styles */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-checkbox {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #0066cc;
+}
+
+.checkbox-text {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.4;
+}
+
+.checkbox-label:hover .checkbox-text {
+    color: #0066cc;
+}
+
+/* Schedule Options */
+.schedule-options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Property Type Options */
+.property-type-options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Bedroom/Bathroom Options */
+.bedroom-options,
+.bathroom-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.option-button {
+    flex: 1;
+    min-width: 50px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.option-button:hover {
+    border-color: #0066cc;
+    color: #0066cc;
+    background-color: #f5f9ff;
+}
+
+.option-button.active {
+    background-color: #0066cc;
+    color: #ffffff;
+    border-color: #0066cc;
+}
+
+.option-button:active {
+    transform: scale(0.98);
+}
+
+/* Amenities Options */
+.amenities-options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Apply Filters Button */
+.filter-actions {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.apply-filters-btn {
+    width: 100%;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.apply-filters-btn:hover {
+    background-color: #0052a3;
+}
+
+.apply-filters-btn:active {
+    transform: scale(0.98);
+    background-color: #004080;
+}
+
+/* Scrollbar Styling */
+.filter-section::-webkit-scrollbar {
+    width: 6px;
+}
+
+.filter-section::-webkit-scrollbar-track {
+    background: #f5f5f5;
+}
+
+.filter-section::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 3px;
+}
+
+.filter-section::-webkit-scrollbar-thumb:hover {
+    background: #b0b0b0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .filter-section {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
