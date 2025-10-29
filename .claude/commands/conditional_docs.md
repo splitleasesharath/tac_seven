@@ -61,3 +61,12 @@ This prompt helps you determine what documentation you should read based on the 
     - When working with upload button text or labeling
     - When implementing UI text changes for data upload functionality
     - When troubleshooting upload button display or terminology
+
+- app_docs/feature-3798fcbc-search-filter-section.md
+  - Conditions:
+    - When working with search page filter section
+    - When implementing or modifying rental property search filters
+    - When troubleshooting filter UI components or styling
+    - When working with filter interactions (location, price, schedule, property type, bedrooms, bathrooms, amenities)
+    - When implementing responsive design for search interfaces
+    - When working with app/split-lease/pages/search/ directory
