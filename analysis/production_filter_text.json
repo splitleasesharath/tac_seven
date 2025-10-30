@@ -1,0 +1,231 @@
+{
+  "labels": [
+    {
+      "text": "",
+      "for": null,
+      "classes": [
+        "ionic-checkbox",
+        "checkbox-royal"
+      ]
+    },
+    {
+      "text": "",
+      "for": null,
+      "classes": [
+        "ionic-checkbox",
+        "checkbox-balanced"
+      ]
+    },
+    {
+      "text": "Terrain",
+      "for": null,
+      "classes": []
+    },
+    {
+      "text": "Labels",
+      "for": null,
+      "classes": []
+    },
+    {
+      "text": "Select Borough",
+      "for": "input-container-1761782507252-default-i1p2aqa97-select",
+      "classes": [
+        "floating-label"
+      ]
+    },
+    {
+      "text": "Select Week Pattern",
+      "for": "input-container-1761782507259-default-yqkczu2xj-select",
+      "classes": [
+        "floating-label"
+      ]
+    },
+    {
+      "text": "Select Price Tier",
+      "for": "input-container-1761782507299-default-1rug0s8qd-select",
+      "classes": [
+        "floating-label"
+      ]
+    },
+    {
+      "text": "Sort By",
+      "for": "input-container-1761782507322-default-xfgi5a3dk-select",
+      "classes": [
+        "floating-label"
+      ]
+    }
+  ],
+  "headings": [],
+  "buttons": [
+    {
+      "text": "\uf3cf",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "\uf3d1",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Icon",
+        "cpiaRe0"
+      ]
+    },
+    {
+      "text": "Message",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Button",
+        "csaXaWaG"
+      ]
+    },
+    {
+      "text": "\uf3cf",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "\uf3d1",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Icon",
+        "cpiaRe0"
+      ]
+    },
+    {
+      "text": "Message",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Button",
+        "csaXaWaG"
+      ]
+    },
+    {
+      "text": "\uf3cf",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "\uf3d1",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Icon",
+        "cpiaRe0"
+      ]
+    },
+    {
+      "text": "Message",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Button",
+        "csaXaWaG"
+      ]
+    },
+    {
+      "text": "\uf3cf",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "\uf3d1",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Icon",
+        "cpiaRe0"
+      ]
+    },
+    {
+      "text": "Message",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Button",
+        "csaXaWaG"
+      ]
+    },
+    {
+      "text": "Tell us your unique logistics",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Button",
+        "cucgaA2"
+      ]
+    },
+    {
+      "text": "\uf3cf",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "\uf3d1",
+      "classes": [
+        "bubble-element",
+        "ionic-IonicIcon",
+        "clickable-element"
+      ]
+    },
+    {
+      "text": "",
+      "classes": [
+        "clickable-element",
+        "bubble-element",
+        "Icon",
+        "cpiaRe0"
+      ]
+    }
+  ]
+}

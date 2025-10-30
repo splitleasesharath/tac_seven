@@ -1,0 +1,1214 @@
+{
+  "colors": {
+    "backgrounds": [
+      "rgb(255, 255, 255)",
+      "rgb(49, 19, 93)",
+      "rgba(255, 255, 255, 0)",
+      "rgb(97, 53, 205)",
+      "rgb(28, 28, 46)"
+    ],
+    "text": [
+      "rgb(0, 0, 0)",
+      "rgb(77, 77, 77)",
+      "rgb(255, 255, 255)",
+      "rgba(255, 255, 255, 0)",
+      "rgb(140, 104, 238)",
+      "rgb(49, 19, 93)",
+      "rgb(41, 29, 84)",
+      "rgb(192, 192, 192)",
+      "rgb(77, 72, 94)",
+      "rgb(75, 71, 206)",
+      "rgb(134, 134, 134)"
+    ],
+    "borders": [
+      "rgb(77, 77, 77)",
+      "rgb(49, 19, 93)",
+      "rgb(255, 255, 255)",
+      "rgb(196, 198, 208)",
+      "rgba(255, 255, 255, 0)",
+      "rgb(140, 104, 238)",
+      "rgb(41, 29, 84)",
+      "rgb(192, 192, 192)",
+      "rgb(77, 72, 94)",
+      "rgb(75, 71, 206)",
+      "rgb(134, 134, 134)",
+      "rgb(150, 150, 150) rgb(0, 0, 0) rgb(0, 0, 0)",
+      "rgb(221, 221, 221)"
+    ],
+    "buttons": [
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "Tell us your unique logistics",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "Tell us your unique logistics",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3cf",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "\uf3d1",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Message",
+        "backgroundColor": "rgb(97, 53, 205)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "3px",
+        "padding": "0px",
+        "fontSize": "14px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "View Active Proposals  ()",
+        "backgroundColor": "rgb(49, 19, 93)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "10px",
+        "padding": "0px",
+        "fontSize": "16px",
+        "fontWeight": "700"
+      },
+      {
+        "text": "\uf123",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(49, 19, 93)",
+        "borderColor": "rgb(49, 19, 93)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Map",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "2px 0px 0px 2px",
+        "padding": "0px 17px",
+        "fontSize": "18px",
+        "fontWeight": "500"
+      },
+      {
+        "text": "Satellite",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(86, 86, 86)",
+        "borderColor": "rgb(86, 86, 86)",
+        "borderRadius": "0px 2px 2px 0px",
+        "padding": "0px 17px",
+        "fontSize": "18px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "50%",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Keyboard shortcuts",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "10px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "Map Data",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "10px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "2 km\u00a0Click to toggle between m",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      },
+      {
+        "text": "",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontSize": "13.3333px",
+        "fontWeight": "400"
+      }
+    ]
+  },
+  "typography": {
+    "fontFamilies": [
+      "\"Times New Roman\"",
+      "Helvetica, Arial, sans-serif",
+      "\"Avenir Next LT Pro Bold\"",
+      "Lato",
+      "Arial",
+      "Ionicons",
+      "\"Avenir Next LT Pro Demi\"",
+      "Inter",
+      "\"DM Sans\"",
+      "FontAwesome"
+    ],
+    "fontSizes": [
+      "16px",
+      "12px",
+      "14px",
+      "13.3333px",
+      "50px",
+      "18px",
+      "13px",
+      "11px"
+    ],
+    "fontWeights": [
+      "400",
+      "700",
+      "600",
+      "300",
+      "500"
+    ]
+  },
+  "spacing": {
+    "padding": [
+      "10px 20px 20px",
+      "13px 0px 0px",
+      "48px 0px 0px"
+    ],
+    "margin": [
+      "200px 0px 0px",
+      "5px 0px",
+      "0px 0px 10px"
+    ],
+    "gaps": [
+      "5px normal",
+      "1px normal",
+      "0px 2px",
+      "0px 5px"
+    ]
+  },
+  "borders": {
+    "borderRadius": [
+      "5px",
+      "10px",
+      "5px 5px 0px 0px",
+      "4px",
+      "30px",
+      "3px"
+    ],
+    "borderWidth": [
+      "2px",
+      "1px"
+    ]
+  },
+  "inputs": [
+    {
+      "type": "INPUT[checkbox]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "13.3333px",
+      "height": "28px"
+    },
+    {
+      "type": "INPUT[checkbox]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "13.3333px",
+      "height": "28px"
+    },
+    {
+      "type": "SELECT[select-multiple]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "2px",
+      "padding": "0px",
+      "fontSize": "13.3333px",
+      "height": "1px"
+    },
+    {
+      "type": "INPUT[search]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(181, 181, 181)",
+      "border": "0px none rgb(181, 181, 181)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "16px",
+      "height": "19px"
+    },
+    {
+      "type": "SELECT[select-one]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px"
+    },
+    {
+      "type": "SELECT[select-one]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px"
+    },
+    {
+      "type": "SELECT[select-one]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px"
+    },
+    {
+      "type": "SELECT[select-one]",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px"
+    }
+  ],
+  "labels": [
+    {
+      "text": "",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Helvetica, Arial, sans-serif"
+    },
+    {
+      "text": "",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Helvetica, Arial, sans-serif"
+    },
+    {
+      "text": "Terrain",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto, Arial, sans-serif"
+    },
+    {
+      "text": "Labels",
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto, Arial, sans-serif"
+    },
+    {
+      "text": "Select Borough",
+      "color": "rgb(117, 117, 117)",
+      "fontSize": "10.8px",
+      "fontWeight": "400",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    },
+    {
+      "text": "Select Week Pattern",
+      "color": "rgb(117, 117, 117)",
+      "fontSize": "10.8px",
+      "fontWeight": "400",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    },
+    {
+      "text": "Select Price Tier",
+      "color": "rgb(117, 117, 117)",
+      "fontSize": "10.8px",
+      "fontWeight": "400",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    },
+    {
+      "text": "Sort By",
+      "color": "rgb(117, 117, 117)",
+      "fontSize": "10.8px",
+      "fontWeight": "400",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    }
+  ]
+}

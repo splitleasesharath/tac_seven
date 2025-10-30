@@ -1,0 +1,391 @@
+{
+  "tag": "BODY",
+  "id": null,
+  "classes": [],
+  "text": "window.addEventListener('DOMContentLoaded', function () {\n  if (window.appquery == null) {\n    const",
+  "childCount": 51,
+  "children": [
+    {
+      "tag": "DIV",
+      "id": "canvas-loader",
+      "classes": [],
+      "text": "",
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "DIV",
+          "id": null,
+          "classes": [
+            "canvas-loader"
+          ],
+          "text": "",
+          "childCount": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "SCRIPT",
+      "id": null,
+      "classes": [],
+      "text": "window.addEventListener('DOMContentLoaded', function () {\n  if (window.appquery == null) {\n    const",
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "SCRIPT",
+      "id": null,
+      "classes": [],
+      "text": "window.addEventListener('DOMContentLoaded', function () {if (window.appquery && window.app == null) ",
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "IMG",
+      "id": null,
+      "classes": [],
+      "text": "",
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "classifyScript",
+      "classes": [],
+      "text": "",
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "DIV",
+      "id": null,
+      "classes": [
+        "bubble-element",
+        "Page",
+        "coaBaNaW1",
+        "bubble-r-container-wrapper",
+        "main-page"
+      ],
+      "text": "FiltersWe didn\u2019t find any results with your current filters. Here are nearby listings in Manhattan a",
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "DIV",
+          "id": null,
+          "classes": [
+            "bubble-r-container",
+            "flex",
+            "column"
+          ],
+          "text": "FiltersWe didn\u2019t find any results with your current filters. Here are nearby listings in Manhattan a",
+          "childCount": 2,
+          "children": [
+            {
+              "tag": "DIV",
+              "id": "filters",
+              "classes": [
+                "clickable-element",
+                "bubble-element",
+                "Group",
+                "cpaSaQs6",
+                "bubble-r-container",
+                "flex",
+                "column"
+              ],
+              "text": "Filters",
+              "childCount": 2,
+              "children": [
+                {
+                  "tag": "DIV",
+                  "id": null,
+                  "classes": [
+                    "bubble-element",
+                    "Image",
+                    "cpaSaQg6"
+                  ],
+                  "text": "",
+                  "childCount": 1,
+                  "children": [
+                    {
+                      "tag": "IMG",
+                      "id": null,
+                      "classes": [],
+                      "text": "",
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "DIV",
+                  "id": null,
+                  "classes": [
+                    "bubble-element",
+                    "Text",
+                    "cpaSaQm6"
+                  ],
+                  "text": "Filters",
+                  "childCount": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "DIV",
+              "id": null,
+              "classes": [
+                "bubble-element",
+                "Group",
+                "cuaKeaS4",
+                "bubble-r-container",
+                "flex",
+                "row"
+              ],
+              "text": "We didn\u2019t find any results with your current filters. Here are nearby listings in Manhattan and surr",
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "DIV",
+                  "id": "screenshotthisgroup",
+                  "classes": [
+                    "bubble-element",
+                    "Group",
+                    "cpgdg4",
+                    "bubble-r-container",
+                    "flex",
+                    "column"
+                  ],
+                  "text": "We didn\u2019t find any results with your current filters. Here are nearby listings in Manhattan and surr",
+                  "childCount": 3,
+                  "children": [
+                    {
+                      "tag": "DIV",
+                      "id": null,
+                      "classes": [
+                        "bubble-element",
+                        "Group",
+                        "coniw",
+                        "bubble-r-container",
+                        "flex",
+                        "row"
+                      ],
+                      "text": "We didn\u2019t find any results with your current filters. Here are nearby listings in Manhattan and surr",
+                      "childCount": 1,
+                      "children": []
+                    },
+                    {
+                      "tag": "DIV",
+                      "id": "myRepeatingGroup",
+                      "classes": [
+                        "bubble-element",
+                        "RepeatingGroup",
+                        "coaBaNa1",
+                        "bubble-rg"
+                      ],
+                      "text": "\uf3cf\n    \n\n    \n        \uf3d1\n    \nNew ListingCivic Center, Manhattan (click to... One Platt | StudioEntire",
+                      "childCount": 10,
+                      "children": []
+                    },
+                    {
+                      "tag": "DIV",
+                      "id": "myRepeatingGroup",
+                      "classes": [
+                        "bubble-element",
+                        "RepeatingGroup",
+                        "cukfaG0",
+                        "bubble-rg"
+                      ],
+                      "text": "",
+                      "childCount": 34,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "DIV",
+      "id": null,
+      "classes": [
+        "greyout",
+        "coaBaQa1"
+      ],
+      "text": "",
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "DIV",
+      "id": "SendEmail",
+      "classes": [
+        "bubble-element",
+        "Popup",
+        "coaBaQa1",
+        "bubble-r-container",
+        "fixed"
+      ],
+      "text": "#popupeffect {\n    background: conic-gradient(#31135D, #FFFFFF, #31135D) !important;\n}",
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "DIV",
+          "id": null,
+          "classes": [
+            "bubble-element",
+            "HTML",
+            "cpaLsm2"
+          ],
+          "text": "#popupeffect {\n    background: conic-gradient(#31135D, #FFFFFF, #31135D) !important;\n}",
+          "childCount": 1,
+          "children": [
+            {
+              "tag": "STYLE",
+              "id": null,
+              "classes": [],
+              "text": "#popupeffect {\n    background: conic-gradient(#31135D, #FFFFFF, #31135D) !important;\n}",
+              "childCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "DIV",
+      "id": null,
+      "classes": [
+        "greyout",
+        "coaBaQz1"
+      ],
+      "text": "",
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "DIV",
+      "id": "SignupSearch",
+      "classes": [
+        "bubble-element",
+        "CustomElement",
+        "coaBaQz1",
+        "bubble-r-container-wrapper"
+      ],
+      "text": "function setupEnterKeyTrigger() {\n    var input = document.getElementById('0887');\n    if (input) {\n",
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "DIV",
+          "id": null,
+          "classes": [
+            "bubble-r-container",
+            "flex",
+            "column"
+          ],
+          "text": "function setupEnterKeyTrigger() {\n    var input = document.getElementById('0887');\n    if (input) {\n",
+          "childCount": 2,
+          "children": [
+            {
+              "tag": "DIV",
+              "id": "glasseffect",
+              "classes": [
+                "bubble-element",
+                "Group",
+                "cpaJlg1",
+                "bubble-r-container",
+                "flex",
+                "column"
+              ],
+              "text": "function setupEnterKeyTrigger() {\n    var input = document.getElementById('0887');\n    if (input) {\n",
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "DIV",
+                  "id": null,
+                  "classes": [
+                    "bubble-element",
+                    "Group",
+                    "aMlx2",
+                    "bubble-r-container",
+                    "flex",
+                    "column"
+                  ],
+                  "text": "function setupEnterKeyTrigger() {\n    var input = document.getElementById('0887');\n    if (input) {\n",
+                  "childCount": 1,
+                  "children": [
+                    {
+                      "tag": "DIV",
+                      "id": null,
+                      "classes": [
+                        "bubble-element",
+                        "Group",
+                        "cmaOmw0",
+                        "bubble-r-container",
+                        "flex",
+                        "column"
+                      ],
+                      "text": "function setupEnterKeyTrigger() {\n    var input = document.getElementById('0887');\n    if (input) {\n",
+                      "childCount": 2,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "DIV",
+              "id": "glasseffect",
+              "classes": [
+                "bubble-element",
+                "Group",
+                "cpaJls1",
+                "bubble-r-container",
+                "flex",
+                "column"
+              ],
+              "text": "",
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "DIV",
+                  "id": "popup-modal",
+                  "classes": [
+                    "bubble-element",
+                    "Group",
+                    "cpaUaUn2",
+                    "bubble-r-container",
+                    "flex",
+                    "column"
+                  ],
+                  "text": "",
+                  "childCount": 1,
+                  "children": [
+                    {
+                      "tag": "DIV",
+                      "id": null,
+                      "classes": [
+                        "clickable-element",
+                        "bubble-element",
+                        "Group",
+                        "cpaUaUs2",
+                        "bubble-r-container",
+                        "flex",
+                        "column"
+                      ],
+                      "text": "",
+                      "childCount": 2,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

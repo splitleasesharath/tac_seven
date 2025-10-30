@@ -1,0 +1,77 @@
+[
+  {
+    "hasLabel": false,
+    "labelText": null,
+    "labelStyles": null,
+    "selectStyles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "2px",
+      "padding": "0px",
+      "fontSize": "13.3333px",
+      "height": "1px",
+      "fontFamily": "Arial"
+    }
+  },
+  {
+    "hasLabel": false,
+    "labelText": null,
+    "labelStyles": null,
+    "selectStyles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    }
+  },
+  {
+    "hasLabel": false,
+    "labelText": null,
+    "labelStyles": null,
+    "selectStyles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    }
+  },
+  {
+    "hasLabel": false,
+    "labelText": null,
+    "labelStyles": null,
+    "selectStyles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    }
+  },
+  {
+    "hasLabel": false,
+    "labelText": null,
+    "labelStyles": null,
+    "selectStyles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(79, 82, 76)",
+      "border": "0px none rgb(79, 82, 76)",
+      "borderRadius": "0px",
+      "padding": "0px 25px 0px 10px",
+      "fontSize": "12px",
+      "height": "30px",
+      "fontFamily": "\"Avenir Next LT Pro Regular\""
+    }
+  }
+]
