@@ -58,3 +58,12 @@ This prompt helps you determine what documentation you should read based on the 
     - When working with upload button text or labeling
     - When implementing UI text changes for data upload functionality
     - When troubleshooting upload button display or terminology
+
+- app_docs/feature-85cf2f02-property-header.md
+  - Conditions:
+    - When working with property listing pages or property detail views
+    - When implementing property header or title display components
+    - When working with the PropertyHeader React component
+    - When troubleshooting location display with map pin icons
+    - When implementing Islands Architecture patterns with React components
+    - When working with the view-split-lease page
