@@ -27,9 +27,10 @@ issue_json: $3
 
 Focus on the following files:
 - `README.md` - Contains the project overview and instructions.
-- `app/server/**` - Contains the codebase server.
-- `app/client/**` - Contains the codebase client.
-- `scripts/**` - Contains the scripts to start and stop the server + client.
+- `app/split-lease/components/**` - React component library (UMD bundles).
+- `app/split-lease/pages/**` - Static HTML pages with React Islands.
+- `app/test-harness/**` - Playwright test infrastructure.
+- `scripts/**` - Contains the scripts (if any).
 - `adws/**` - Contains the AI Developer Workflow (ADW) scripts.
 
 - Read `.claude/commands/conditional_docs.md` to check if your task requires additional documentation
@@ -64,7 +65,10 @@ IMPORTANT: Execute every step in order, top to bottom.
 Execute every command to validate the chore is complete with zero regressions.
 
 <list commands you'll use to validate with 100% confidence the chore is complete with zero regressions. every command must execute without errors so be specific about what you want to run to validate the chore is complete with zero regressions. Don't validate with curl commands.>
-- `cd app/server && uv run pytest` - Run server tests to validate the chore is complete with zero regressions
+
+- `cd app/split-lease/components && npm run typecheck` - Run TypeScript type checking to validate zero type errors
+- `cd app/split-lease/components && npm run build` - Run component build to validate UMD bundle generation works
+- `cd app/test-harness && npm test` - Run all component tests (contracts + diagnostics) to validate zero regressions
 
 ## Notes
 <optionally list any additional notes or context that are relevant to the chore that will be helpful to the developer>

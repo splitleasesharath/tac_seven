@@ -7,15 +7,12 @@ Execute end-to-end (E2E) tests using Playwright browser automation (MCP Server).
 adw_id: $ARGUMENT if provided, otherwise generate a random 8 character hex string
 agent_name: $ARGUMENT if provided, otherwise use 'test_e2e'
 e2e_test_file: $ARGUMENT
-application_url: $ARGUMENT if provided, otherwise determine from port configuration:
-  - If `.ports.env` exists, source it and use http://localhost:${FRONTEND_PORT}
-  - Otherwise use default http://localhost:5173
+application_url: $ARGUMENT if provided, otherwise use http://localhost:8080 (static HTML server)
 
 ## Instructions
 
-- If `application_url` was not provided, check for `.ports.env`:
-  - If it exists, source it and use http://localhost:${FRONTEND_PORT}
-  - Otherwise use default http://localhost:5173
+- If `application_url` was not provided, use default http://localhost:8080
+- Verify the application is running (if server returns error, the test setup failed)
 - Read the `e2e_test_file`
 - Digest the `User Story` to first understand what we're validating
 - IMPORTANT: Execute the `Test Steps` detailed in the `e2e_test_file` using Playwright browser automation
@@ -25,16 +22,38 @@ application_url: $ARGUMENT if provided, otherwise determine from port configurat
 - IMPORTANT: Return results in the format requested by the `Output Format`
 - Initialize Playwright browser in headed mode for visibility
 - Use the determined `application_url`
-- Allow time for async operations and element visibility
+- Allow time for async operations and element visibility (React Islands may take time to mount)
 - IMPORTANT: After taking each screenshot, save it to `Screenshot Directory` with descriptive names. Use absolute paths to move the files to the `Screenshot Directory` with the correct name.
 - Capture and report any errors encountered
 - Ultra think about the `Test Steps` and execute them in order
-- If you encounter an error, mark the test as failed immediately and explain exactly what went wrong and on what step it occurred. For example: '(Step 1 ❌) Failed to find element with selector "query-input" on page "http://localhost:5173"'
+- If you encounter an error, mark the test as failed immediately and explain exactly what went wrong and on what step it occurred. For example: '(Step 1 ❌) Failed to find element with selector "#site-header" on page "http://localhost:8080"'
 - Use `pwd` or equivalent to get the absolute path to the codebase for writing and displaying the correct paths to the screenshots
 
 ## Setup
 
-Read and Execute `.claude/commands/prepare_app.md` now to prepare the application for the test.
+Before running E2E tests, ensure the application is prepared:
+
+1. **Build React Components** (if not already built):
+   ```bash
+   cd app/split-lease/components
+   npm install
+   npm run build
+   ```
+
+2. **Start Static File Server**:
+   ```bash
+   cd app/split-lease/pages
+   npx live-server --port=8080 --no-browser &
+   ```
+   OR use Python:
+   ```bash
+   cd app/split-lease/pages
+   python -m http.server 8080 &
+   ```
+
+3. **Verify Server is Running**:
+   - Navigate to http://localhost:8080 and ensure the page loads
+   - Check that React components mount correctly (Header, Footer, SearchScheduleSelector)
 
 ## Screenshot Directory
 
