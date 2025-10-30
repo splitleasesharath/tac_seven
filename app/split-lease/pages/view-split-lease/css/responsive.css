@@ -1,0 +1,60 @@
+/* Responsive Styles for View Split Lease Page */
+
+/* Mobile-first approach with progressive enhancement */
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
+    .view-listing-main {
+        padding: 3rem 2rem;
+    }
+
+    .listing-container {
+        padding: 2.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+    }
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+    .view-listing-main {
+        padding: 4rem 2rem;
+    }
+
+    .listing-container {
+        padding: 3rem;
+    }
+}
+
+/* Large Desktop (1280px and up) */
+@media (min-width: 1280px) {
+    .view-listing-main {
+        padding: 4rem 3rem;
+    }
+}
+
+/* Mobile adjustments (below 768px) */
+@media (max-width: 767px) {
+    .view-listing-main {
+        padding: 1.5rem 1rem;
+    }
+
+    .listing-container {
+        padding: 1.5rem;
+        border-radius: var(--radius-md);
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+}
