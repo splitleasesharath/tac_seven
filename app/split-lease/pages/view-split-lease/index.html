@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Listing | Split Lease</title>
+    <link rel="stylesheet" href="../../components/dist/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="description" content="View split lease property details">
+</head>
+<body>
+    <!-- Header Island -->
+    <div id="site-header"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Listing Images Placeholder -->
+        <section id="listing-images" class="listing-images-section">
+            <div class="listing-images-placeholder">
+                <p>Listing Images</p>
+            </div>
+        </section>
+
+        <!-- PropertyHeader Island -->
+        <section class="property-header-section">
+            <div id="property-header" class="property-header-container"></div>
+        </section>
+    </main>
+
+    <!-- Footer Island -->
+    <div id="site-footer"></div>
+
+    <!-- React and ReactDOM UMD from CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Components UMD Bundle -->
+    <script src="../../components/dist/split-lease-components.umd.cjs"></script>
+
+    <!-- Mount Islands -->
+    <script>
+        // Header Island
+        (function () {
+            var root = document.getElementById('site-header');
+            var lib = window.SplitLeaseComponents || {};
+            var Header = lib.Header;
+
+            if (!root || !Header || !window.React || !window.ReactDOM || !ReactDOM.createRoot) {
+                console.error('Header island failed to mount: missing dependencies');
+                return;
+            }
+
+            var logoSrc = '../shared/images/logo.png';
+            var exploreHref = '../search/index.html';
+
+            ReactDOM.createRoot(root).render(
+                React.createElement(Header, { logoSrc: logoSrc, exploreHref: exploreHref })
+            );
+        })();
+
+        // PropertyHeader Island
+        (function () {
+            var root = document.getElementById('property-header');
+            var lib = window.SplitLeaseComponents || {};
+            var PropertyHeader = lib.PropertyHeader;
+
+            if (!root || !PropertyHeader || !window.React || !window.ReactDOM || !ReactDOM.createRoot) {
+                console.error('PropertyHeader island failed to mount: missing dependencies');
+                return;
+            }
+
+            var props = {
+                title: 'Holiday Rental: Luxurious, Sunny, and Quiet Apt on Central Park West',
+                location: {
+                    neighborhood: 'Manhattan Valley',
+                    city: 'Manhattan'
+                },
+                propertyType: 'Private Room',
+                maxGuests: 2
+            };
+
+            ReactDOM.createRoot(root).render(
+                React.createElement(PropertyHeader, props)
+            );
+        })();
+
+        // Footer Island
+        (function () {
+            var root = document.getElementById('site-footer');
+            var lib = window.SplitLeaseComponents || {};
+            var Footer = lib.Footer;
+
+            if (!root || !Footer || !window.React || !window.ReactDOM || !ReactDOM.createRoot) {
+                console.error('Footer island failed to mount: missing dependencies');
+                return;
+            }
+
+            ReactDOM.createRoot(root).render(
+                React.createElement(Footer, {})
+            );
+        })();
+    </script>
+</body>
+</html>

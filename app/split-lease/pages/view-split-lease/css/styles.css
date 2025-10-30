@@ -1,0 +1,100 @@
+/* View Split Lease Page Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Content Layout */
+.main-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-top: 80px; /* Space for fixed header */
+}
+
+/* Listing Images Section */
+.listing-images-section {
+  margin-bottom: 2rem;
+}
+
+.listing-images-placeholder {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d1d5db;
+}
+
+.listing-images-placeholder p {
+  font-size: 1.25rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* PropertyHeader Section */
+.property-header-section {
+  margin-bottom: 2rem;
+}
+
+.property-header-container {
+  padding: 1rem 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 0 1rem;
+    margin-top: 60px;
+  }
+
+  .listing-images-placeholder {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .listing-images-placeholder p {
+    font-size: 1rem;
+  }
+
+  .property-header-section {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 0 0.75rem;
+    margin-top: 50px;
+  }
+
+  .listing-images-placeholder {
+    height: 200px;
+    border-radius: 6px;
+  }
+
+  .listing-images-placeholder p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Footer Spacing */
+#site-footer {
+  margin-top: auto;
+}
