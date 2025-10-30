@@ -58,3 +58,13 @@ This prompt helps you determine what documentation you should read based on the 
     - When working with upload button text or labeling
     - When implementing UI text changes for data upload functionality
     - When troubleshooting upload button display or terminology
+
+- app_docs/feature-fdaa1bc9-listing-images-proposal-menu.md
+  - Conditions:
+    - When working with the view split lease page
+    - When implementing listing image display or gallery features
+    - When working with rental proposal booking panels or forms
+    - When implementing weekly schedule selectors for rental bookings
+    - When working with reservation span configurations
+    - When implementing real-time pricing calculations for rentals
+    - When troubleshooting ListingImageGrid or ProposalMenu components
