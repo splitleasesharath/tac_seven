@@ -13,14 +13,11 @@ This prompt helps you determine what documentation you should read based on the 
 
 - README.md
   - Conditions:
-    - When operating on anything under app/server
-    - When operating on anything under app/client
+    - When operating on anything under app/split-lease/components
+    - When operating on anything under app/split-lease/pages
+    - When operating on anything under app/test-harness
     - When first understanding the project structure
-    - When you want to learn the commands to start or stop the server or client
-
-- app/client/src/style.css
-  - Conditions:
-    - When you need to make changes to the client's style
+    - When you want to learn the commands to build components or run tests
 
 - .claude/commands/classify_adw.md
   - Conditions:
@@ -61,12 +58,3 @@ This prompt helps you determine what documentation you should read based on the 
     - When working with upload button text or labeling
     - When implementing UI text changes for data upload functionality
     - When troubleshooting upload button display or terminology
-
-- app_docs/feature-3798fcbc-search-filter-section.md
-  - Conditions:
-    - When working with search page filter section
-    - When implementing or modifying rental property search filters
-    - When troubleshooting filter UI components or styling
-    - When working with filter interactions (location, price, schedule, property type, bedrooms, bathrooms, amenities)
-    - When implementing responsive design for search interfaces
-    - When working with app/split-lease/pages/search/ directory

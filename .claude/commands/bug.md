@@ -34,9 +34,10 @@ issue_json: $3
 
 Focus on the following files:
 - `README.md` - Contains the project overview and instructions.
-- `app/server/**` - Contains the codebase server.
-- `app/client/**` - Contains the codebase client.
-- `scripts/**` - Contains the scripts to start and stop the server + client.
+- `app/split-lease/components/**` - React component library (UMD bundles).
+- `app/split-lease/pages/**` - Static HTML pages with React Islands.
+- `app/test-harness/**` - Playwright test infrastructure.
+- `scripts/**` - Contains the scripts (if any).
 - `adws/**` - Contains the AI Developer Workflow (ADW) scripts.
 
 - Read `.claude/commands/conditional_docs.md` to check if your task requires additional documentation
@@ -90,9 +91,9 @@ Execute every command to validate the bug is fixed with zero regressions.
 
 <If you created an E2E test, include the following validation step: "Read .claude/commands/test_e2e.md`, then read and execute your new E2E `.claude/commands/e2e/test_<descriptive_name>.md` test file to validate this functionality works.">
 
-- `cd app/server && uv run pytest` - Run server tests to validate the bug is fixed with zero regressions
-- `cd app/client && bun tsc --noEmit` - Run frontend tests to validate the bug is fixed with zero regressions
-- `cd app/client && bun run build` - Run frontend build to validate the bug is fixed with zero regressions
+- `cd app/split-lease/components && npm run typecheck` - Run TypeScript type checking to validate zero type errors
+- `cd app/split-lease/components && npm run build` - Run component build to validate UMD bundle generation works
+- `cd app/test-harness && npm test` - Run all component tests (contracts + diagnostics) to validate zero regressions
 
 ## Notes
 <optionally list any additional notes or context that are relevant to the bug that will be helpful to the developer>
