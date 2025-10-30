@@ -1,12 +1,14 @@
 {
   "mcpServers": {
     "playwright": {
-      "command": "npx",
+      "command": "cmd",
       "args": [
+        "/c",
+        "npx",
         "@playwright/mcp@latest",
         "--isolated",
         "--config",
-        "/c/Users/Split Lease/splitleaseteam/!Agent Context and Tools/SL1/Practice TAC/New/Full TAC/trees/abcff73b/playwright-mcp-config.json"
+        "/c/Users/Split Lease/splitleaseteam/!Agent Context and Tools/SL1/Practice TAC/New/Full TAC/trees/fdaa1bc9/playwright-mcp-config.json"
       ]
     }
   }
