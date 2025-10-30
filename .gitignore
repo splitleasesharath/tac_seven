@@ -43,11 +43,14 @@ Thumbs.db
 # Logs
 *.log
 
-# Application directory
-app/
-
+# Worktrees directory
 trees/
 !trees/README.md
+
+# Backup files
+*.backup
+.git.backup/
+.gitignore.backup
 
 # Claude hooks logs
 logs/
