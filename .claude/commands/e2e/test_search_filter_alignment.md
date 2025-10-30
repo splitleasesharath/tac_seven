@@ -26,22 +26,33 @@ So that I have a consistent and familiar user experience
    - "Apply Filters" button
 
 5. Take a focused screenshot of the filter section
-6. **Verify** filter section styling:
-   - Filter section has white background
-   - Filter section has right border
-   - Filter groups are properly separated
-   - Input fields have proper borders and border-radius
-   - Buttons have proper styling and hover states
+6. **Verify** filter section styling matches production design system:
+   - Filter section has white background (#ffffff)
+   - Filter section has right border color #c4c6d0 (production border gray)
+   - Filter title color is #31135d (production dark purple)
+   - "Clear all" button color is #6135cd (production primary purple)
+   - Filter group titles are #31135d (production dark purple)
+   - Input text color is #4f524c (production medium gray)
+   - Input border color is #c4c6d0
+   - Input focus border is #6135cd with rgba(97, 53, 205, 0.1) shadow
+   - Placeholder text color is #868686
+   - Checkbox accent color is #6135cd
+   - Button active state background is #6135cd
+   - Apply button background is #6135cd with hover state #4b47ce
+   - Font family includes "Avenir Next LT Pro" with fallbacks
 
 7. Navigate to production page: https://app.split.lease/search
 8. Take a screenshot of the production page
 9. Take a focused screenshot of the production filter section
-10. **Verify** key visual elements match between local and production:
-    - Similar layout structure
-    - Similar spacing and padding
-    - Similar typography
-    - Similar color scheme
-    - Similar interactive elements
+10. **Verify** key visual elements match production design system:
+    - Purple color scheme (#6135cd primary, #31135d dark purple)
+    - "Avenir Next LT Pro" typography with system font fallbacks
+    - Border colors using #c4c6d0 (production border gray)
+    - Text colors using #4f524c (production medium gray)
+    - Button border-radius: 3-4px (production standard)
+    - Input border-radius: 6px
+    - Consistent spacing and padding throughout
+    - Interactive states use purple theme colors
 
 11. Test filter interactions on local page:
     - Click a bedroom option button
@@ -84,6 +95,6 @@ So that I have a consistent and familiar user experience
 ## Notes
 
 - This test validates the visual structure and basic functionality of the filter section
-- Due to Playwright MCP limitations, manual visual comparison may be required
+- This test uses Playwright to automatically capture and compare screenshots from both local and production environments
 - Focus is exclusively on the filter section, not the results area
 - The filter section should follow modern UI/UX best practices for search interfaces
