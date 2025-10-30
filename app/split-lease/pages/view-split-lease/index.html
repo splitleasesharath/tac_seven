@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View detailed information about this Split Lease rental property. Explore flexible periodic tenancy options in NYC.">
+    <meta name="keywords" content="split lease, periodic tenancy, flexible rentals, NYC apartments, property details, rental listing">
+    <meta name="author" content="Split Lease">
+    <meta property="og:title" content="View Listing | Split Lease">
+    <meta property="og:description" content="View detailed information about this rental property. Flexible periodic tenancy in NYC.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://splitlease.app/view-split-lease/">
+    <meta property="og:image" content="https://splitlease.app/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="View Listing | Split Lease">
+    <meta name="twitter:description" content="View detailed information about this rental property.">
+    <meta name="twitter:image" content="https://splitlease.app/twitter-card.jpg">
+    <link rel="canonical" href="https://splitlease.app/view-split-lease/">
+    <meta name="robots" content="index, follow">
+    <title>View Listing | Split Lease</title>
+    <link rel="stylesheet" href="../../components/dist/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header React Island Mount Point -->
+    <div id="site-header"></div>
+
+    <!-- Main Content Area -->
+    <main class="view-listing-main">
+        <div class="listing-container">
+            <h1>Listing Details</h1>
+            <p>This page will showcase detailed information about a specific rental property.</p>
+        </div>
+    </main>
+
+    <!-- Footer React Island Mount Point -->
+    <div id="site-footer"></div>
+
+    <!-- React + UMD -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script>
+      // Shim Node globals used by some UMD bundles
+      (function(){
+        window.global = window.global || window;
+        window.process = window.process || { env: { NODE_ENV: 'production' } };
+      })();
+    </script>
+    <script src="../../components/dist/split-lease-components.umd.cjs"></script>
+    <script src="../shared/js/header.js"></script>
+    <script src="../shared/js/footer.js"></script>
+</body>
+</html>
