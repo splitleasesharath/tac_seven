@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Listing | Split Lease</title>
-    <link rel="stylesheet" href="../../components/dist/style.css">
+    <link rel="stylesheet" href="/components/dist/style.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 
     <!-- Components UMD Bundle -->
-    <script src="../../components/dist/split-lease-components.umd.cjs"></script>
+    <script src="/components/dist/split-lease-components.umd.cjs"></script>
 
     <!-- Mount Islands -->
     <script>
@@ -53,8 +53,8 @@
                 return;
             }
 
-            var logoSrc = '../shared/images/logo.png';
-            var exploreHref = '../search/index.html';
+            var logoSrc = '/pages/shared/images/logo.png';
+            var exploreHref = '/pages/search/index.html';
 
             ReactDOM.createRoot(root).render(
                 React.createElement(Header, { logoSrc: logoSrc, exploreHref: exploreHref })

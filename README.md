@@ -75,9 +75,17 @@ This generates:
 
 ### 3. View Pages
 
-Open the HTML files in your browser:
-- Home page: `pages/index.html`
-- Search page: `pages/search/index.html`
+Start a local HTTP server from the `app/split-lease` directory:
+
+```bash
+cd app/split-lease
+python -m http.server 8000
+```
+
+Then open these URLs in your browser:
+- Home page: `http://localhost:8000/pages/index.html`
+- Search page: `http://localhost:8000/pages/search/index.html`
+- View listing page: `http://localhost:8000/pages/view-split-lease/index.html`
 
 No build step required for pages - they load React via CDN and include the UMD bundle.
 
